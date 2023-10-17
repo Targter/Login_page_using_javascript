@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Form</title>
+    <link rel="stylesheet" href="loginpage.css">
+    <!-- import font awesome library from font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div class="navbox">
+        <i class="fa-brands fa-html5"></i>
+        <div class="nav">
+            <a href="#">HOme</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button id="loginbtn">Login</button>
+        </div>
+    </div>
+    <!-- login-box -->
+    <div class="loginbox">
+
+        <div class="login">
+            <div class="wrapper loginlogin">
+            <i class="closeicon fa-solid fa-xmark"></i>
+            <h3 class="loginheading">Login</h3>
+
+            <div class="Emailbox">
+                <i class="fa-solid fa-envelope"></i>
+                <!-- type  = "email " -->
+                <input type="text" required>
+                <label for="email">Email</label>
+                <!-- </form> -->
+            </div>
+            <div class="Emailbox">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" required>
+                <label for="password">Password</label>
+                <!-- </form> -->
+            </div>
+            <div class="resetbox">
+                <label for="checkbox"><input type="checkbox"> Remember me</label>
+                <a href="#">Forget password</a>
+            </div>
+            <button type="submit" class="submitbtn">Login</button>
+            <div class="newregister">
+                <p>Don't have an account? <a href="#" class="registration_link">Register</a></p>
+            </div>  
+            
+            </div>
+            <div class="wrapper registration">
+            <i class="closeicon1 fa-solid fa-xmark"></i>
+            <h3 class="loginheading">Registration</h3>
+
+            <div class="Emailbox">
+                <i class="fa-solid fa-user"></i>
+                <!-- type  = "email " -->
+                <input type="text" required>
+                <label for="email">Username</label>
+                <!-- </form> -->
+            </div>
+            <div class="Emailbox">
+                <i class="fa-solid fa-envelope"></i>
+                <!-- type  = "email " -->
+                <input type="text" required>
+                <label for="email">Email</label>
+                <!-- </form> -->
+            </div>
+            <div class="Emailbox">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" required>
+                <label for="password">Password</label>
+                <!-- </form> -->
+            </div>
+            <div class="resetbox">
+                <label for="checkbox"><input type="checkbox"> I agree to the terms & conditions</label>
+                <!-- <a href="#">Forget password</a> -->
+            </div>
+            <button type="submit" class="submitbtn">Register</button>
+            <div class="newregister">
+                <p>Already have an account <a href="#" class="login-linkk">Login</a></p>
+            </div>  
+            
+            </div>
+            <!-- NEW Registration -->
+            
+        </div>   
+         
+    </div>
+    <script src="loginpage.js"></script>
+</body>
+</html>
